@@ -1,3 +1,5 @@
 <template>
-  Hello, world!
+    <select name.bind="name" value.bind="selected" id.bind="name">
+        <option repeat.for="option of options" value.bind="option[valueProp]">${option[labelProp]}</option>
+    </select>
 </template>
