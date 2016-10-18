@@ -7,7 +7,6 @@ System.config({
   },
 
   map: {
-    "abalmus/aurelia-select2": "github:abalmus/aurelia-select2@master",
     "aurelia-polyfills": "npm:aurelia-polyfills@1.0.0",
     "jquery": "npm:jquery@3.1.1",
     "select2/select2": "github:select2/select2@4.0.3",
