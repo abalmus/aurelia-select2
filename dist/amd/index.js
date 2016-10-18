@@ -1,4 +1,4 @@
-define(['exports', 'select2/select2'], function (exports) {
+define(['exports'], function (exports) {
   'use strict';
 
   Object.defineProperty(exports, "__esModule", {

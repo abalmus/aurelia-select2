@@ -1,6 +1,6 @@
 'use strict';
 
-System.register(['aurelia-framework', 'jquery'], function (_export, _context) {
+System.register(['aurelia-framework', 'jquery', 'select2/select2'], function (_export, _context) {
     "use strict";
 
     var bindable, inject, customElement, $, _dec, _dec2, _class, _desc, _value, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, Select2;
@@ -61,7 +61,7 @@ System.register(['aurelia-framework', 'jquery'], function (_export, _context) {
             customElement = _aureliaFramework.customElement;
         }, function (_jquery) {
             $ = _jquery.default;
-        }],
+        }, function (_select2Select) {}],
         execute: function () {
             _export('Select2', Select2 = (_dec = customElement('select2'), _dec2 = inject(Element), _dec(_class = _dec2(_class = (_class2 = function () {
                 function Select2(element) {

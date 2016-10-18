@@ -1,6 +1,6 @@
 'use strict';
 
-System.register(['select2/select2'], function (_export, _context) {
+System.register([], function (_export, _context) {
   "use strict";
 
   function configure(config) {
@@ -10,7 +10,7 @@ System.register(['select2/select2'], function (_export, _context) {
   _export('configure', configure);
 
   return {
-    setters: [function (_select2Select) {}],
+    setters: [],
     execute: function () {}
   };
 });
