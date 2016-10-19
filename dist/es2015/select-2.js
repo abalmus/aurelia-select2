@@ -45,7 +45,7 @@ function _initializerWarningHelper(descriptor, context) {
 
 import { bindable, inject, customElement } from 'aurelia-framework';
 import $ from 'jquery';
-import 'select2/select2';
+import 'select2';
 
 export let Select2 = (_dec = customElement('select2'), _dec2 = inject(Element), _dec(_class = _dec2(_class = (_class2 = class Select2 {
 

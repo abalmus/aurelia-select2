@@ -1,4 +1,4 @@
-define(['exports', 'aurelia-framework', 'jquery', 'select2/select2'], function (exports, _aureliaFramework, _jquery) {
+define(['exports', 'aurelia-framework', 'jquery', 'select2'], function (exports, _aureliaFramework, _jquery) {
     'use strict';
 
     Object.defineProperty(exports, "__esModule", {
